@@ -18,7 +18,7 @@ The data file contains lines with gene information followed by one or more lines
 1. **Gene Information Line:**
 
    ```
-   ([GEN_ID],[Cord_inicio_gen],[Cord_final_gen],[string_nucleotidos],[numero_cromosoma],[Cord_global_inicio_gen],[Cord_global_final_gen],hebra)
+   ([GEN_ID],[Cord_inicio_gen],[Cord_final_gen],[string_nucleotides],[chromosome_number],[Cord_global_inicio_gen],[Cord_global_final_gen],strand)
    ```
 
    *Example:*
@@ -30,7 +30,7 @@ The data file contains lines with gene information followed by one or more lines
 2. **Transcript Information Lines:**
 
    ```
-   ([inicio_e1_transcrito, final_e1_transcrito],[inicio_e2_transcrito, final_e2_transcrito],...,[inicio_en_transcrito, final_en_transcrito],[cantidad de transcritos])
+   ([transcript_exon1_start, transcript_exon1_end],[transcript_exon2_start, transcript_exon2_end],...,[transcript_exonN_start, transcript_exonN_end],[transcript_count])
    ```
 
    *Example:*
@@ -125,4 +125,4 @@ Each CSV file includes metadata (such as gene ID, chromosome number, and genomic
 1. Open `genomic_data.ipynb` in your Jupyter Notebook environment.
 2. Ensure that your data files are located in the correct directory.
 3. Execute the notebook to perform the data extraction.
-4. Check the output CSV files for the extracted transition zones in `/data`.
+4. Check the output CSV files for the extracted transition zones in the `/data` folder.
