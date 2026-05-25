@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ### 5. Fetch large data (optional) & models (required)
 
 The `data/`, `data_ensembl/`, and `models/` directories are excluded from Git.
-Download the ZIP from Google Drive, extract it at the project root, and make sure the three folders sit alongside `README.md`. Deails about how to download and use data and models are available at doc/data_usage.md.
+Download the ZIP from Google Drive, extract it at the project root, and make sure the three folders sit alongside `README.md`. Deails about how to download and use data and models are available at docs/data_usage.md.
 
 ### 6. Run a quick self‑test
 
