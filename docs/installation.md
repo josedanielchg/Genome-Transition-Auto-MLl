@@ -14,7 +14,7 @@
 ```bash
 # Windows PowerShell / Git Bash / Linux / macOS
 git clone https://github.com/josedanielchg/Genome-Transition-Auto-MLl.git
-cd genomic‑transition‑zones
+cd Genome-Transition-Auto-MLl
 ````
 
 ### 3. Create & activate a virtual environment
